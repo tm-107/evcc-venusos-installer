@@ -9,7 +9,7 @@ rm evcc/evcc.dist.yaml
 echo "done"
 
 printf "loading and unpacking pyyaml package ... "
-curl --silent --output - -L "https://github.com/yaml/pyyaml/archive/refs/tags/6.0.1.tar.gz" | tar xz -C evcc/
+curl --silent --output - -L "https://github.com/yaml/pyyaml/archive/refs/tags/6.0.2.tar.gz" | tar xz -C evcc/
 echo "done"
 
 printf "copying evcc.yaml configuration ... "
