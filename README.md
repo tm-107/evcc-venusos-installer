@@ -72,15 +72,15 @@ Just adjust the `/evcc/version` file und re-run the script.
 
 ### How to update via ssh?
 
-Everything should be done from your home directory (`cd ~`) to avoid errors:
+You can simply run the provided `update.sh` in the evcc-folder via ssh. Just edit the needed version at the first lines.
+
+Or you can do it manually: To avoid errors, you should do the following steps from your home directory (`cd ~`):
 - stop evcc (`/data/evcc/down`)
 - download the latest evcc package (`wget https://github.com/evcc-io/evcc/releases/download/x.xxx.x/evcc_x.xxx.x_linux-armv6.tar.gz`)
 - unpack the  archive (`tar xzf evcc_x.xxx.x_linux-armv6.tar.gz`)
 - copy evcc (`cp evcc /data/evcc/`)
 - delete the downloaded files (`rm evcc*`) - make sure there are no other files named evcc before doing this (`ls -n`) ...
 - start evcc (`/data/evcc/up`)
-
-Or simply run the provided `update.sh` in the evcc-folder via ssh. Just edit the needed version at the first lines.
 
 ### How to edit evcc.yaml via ssh?
 
