@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# For security reasons you have to make the script executable first.
+# (chmod +x update.sh)
+
 # Add the needed version here:
 
 VERSION=0.133.0
