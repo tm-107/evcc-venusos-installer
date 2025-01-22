@@ -73,6 +73,7 @@ Just adjust the `/evcc/version` file und re-run the script.
 ### How to update via ssh?
 
 You can simply run the provided `update.sh` in the evcc-folder via ssh. Just edit the needed version at the first lines.
+Maybe you have to run `chmod +x update.sh` first.
 
 Or you can do it manually: To avoid errors, you should do the following steps from your home directory (`cd ~`):
 - stop evcc (`/data/evcc/down`)
