@@ -9,7 +9,7 @@ VERSION=x.xxx.x
 
 # No need to edit after this line
 
-cd /data/evcc # just for safety, should not be needed
+cd /data/evcc # just for safety, should not be needed because script should be located there
 ./down
 mkdir evcc-update
 cd evcc-update
