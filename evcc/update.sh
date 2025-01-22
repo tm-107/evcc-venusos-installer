@@ -5,7 +5,7 @@
 
 # Add the needed version here:
 
-VERSION=0.133.0
+VERSION=x.xxx.x
 
 # No need to edit after this line
 
