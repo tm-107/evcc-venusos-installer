@@ -6,6 +6,8 @@ This project creates a `venus-data.tar.gz` archive for easy installation of the 
 
 **Please note:** Currently, when evcc is used together with a Victron EV Charging Station, it will overrule any manual input from the GX device, VRM portal or even from the web interface and the display of the EV Charging Station itself. We are working on making it possible to enable and disable evcc from the GX device in order to restore manual control.
 
+The use of USB adapters (e.g. for Modbus) is currently very flawed, as Venus OS apparently performs regular scans and thus can apparently lead to conflicts on the bus.
+
 ## Get the repository
 
 Clone the repository and initialize the git submodule:
