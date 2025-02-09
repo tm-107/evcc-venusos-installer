@@ -9,6 +9,11 @@ VERSION=x.xxx.x
 
 # No need to edit after this line
 
+if [ "$VERSION" = "x.xxx.x" ]; then
+  echo "You have to edit the file first !!!"
+  exit 1
+fi
+
 cd /data/evcc # just for safety, should not be needed because script should be located there
 ./down
 mkdir evcc-update
