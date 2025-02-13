@@ -18,9 +18,13 @@ cd /data/evcc # just for safety, should not be needed because script should be l
 ./down
 mkdir evcc-update
 cd evcc-update
-wget https://github.com/evcc-io/evcc/releases/download/$VERSION/evcc_$VERSION_linux-armv6.tar.gz
-tar xzf evcc_$VERSION_linux-armv6.tar.gz
+echo "downloading evcc ..."
+wget "https://github.com/evcc-io/evcc/releases/download/$VERSION/evcc_"$VERSION"_linux-armv6.tar.gz"
+echo "unpacking evcc ..."
+tar xzf "evcc_"$VERSION"_linux-armv6.tar.gz"
+echo "copying evcc ..."
 cp evcc /data/evcc/
 cd ..
+echo "delete downloaded files ..."
 rm -r evcc-update
 ./up
