@@ -8,6 +8,9 @@ This project creates a `venus-data.tar.gz` archive for easy installation of the 
 
 The use of USB adapters (e.g. for Modbus) is currently very flawed, as Venus OS apparently performs regular scans and thus can apparently lead to conflicts on the bus.
 
+**The latest tested combination is VenusOS v3.54 and evcc v0.200.0**
+(as of February 15, 2025)
+
 ## Get the repository
 
 Clone the repository and initialize the git submodule:
