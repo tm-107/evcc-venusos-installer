@@ -15,16 +15,18 @@ if [ "$VERSION" = "x.xxx.x" ]; then
 fi
 
 cd /data/evcc # just for safety, should not be needed because script should be located there
+echo "stopping evcc ..."
 ./down
 mkdir evcc-update
 cd evcc-update
-echo "downloading evcc ..."
+echo "downloading evcc v$VERSION ..."
 wget "https://github.com/evcc-io/evcc/releases/download/$VERSION/evcc_"$VERSION"_linux-armv6.tar.gz"
-echo "unpacking evcc ..."
+echo "unpacking evcc v$VERSION ..."
 tar xzf "evcc_"$VERSION"_linux-armv6.tar.gz"
-echo "copying evcc ..."
+echo "copying evcc v$VERSION ..."
 cp evcc /data/evcc/
 cd ..
 echo "delete downloaded files ..."
 rm -r evcc-update
+echo "starting evcc v$VERSION ..."
 ./up
