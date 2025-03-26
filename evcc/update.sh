@@ -2,7 +2,7 @@
 
 # Add the needed version here:
 
-Version=0.202.0
+Version=x.xxx.x
 
 # No need to edit after this line
 
