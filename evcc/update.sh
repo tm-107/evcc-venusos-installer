@@ -19,6 +19,7 @@ mkdir evcc-update
 cd evcc-update
 echo "downloading new evcc v$Version ..."
 wget "https://github.com/evcc-io/evcc/releases/download/$Version/evcc_"$Version"_linux-armv6.tar.gz"
+
 if ! test -f "/data/evcc/evcc-update/evcc_"$Version"_linux-armv6.tar.gz"; then
         echo "Download fehlgeschlagen!"
         echo "delete downloaded files ..."
@@ -28,6 +29,7 @@ if ! test -f "/data/evcc/evcc-update/evcc_"$Version"_linux-armv6.tar.gz"; then
         ./up
         exit 1
 fi
+
 echo "unpacking evcc v$Version ..."
 tar xzf "evcc_"$Version"_linux-armv6.tar.gz"
 echo "copying evcc v$Version ..."
