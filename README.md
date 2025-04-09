@@ -11,7 +11,7 @@ The use of USB adapters (e.g. for Modbus) is currently very flawed, as Venus OS 
 **The latest tested combination is VenusOS v3.55 and evcc v0.202.1**
 (as of April 09, 2025)
 
-You need to adjust `evcc/verion` to the required version.
+You need to adjust `evcc/version` to the required version.
 
 ## Get the repository
 
