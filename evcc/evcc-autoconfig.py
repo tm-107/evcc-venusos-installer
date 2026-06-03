@@ -177,10 +177,10 @@ class EvccDbusConfig:
         })
 
         # add, if not user-defined
-        config['interval'] = config.get('interval', self.get_interval())
-        config['network']  = config.get('network', self.get_network())
-        config['meters']   = config.get('meters', self.get_meters())
-        config['site']     = config.get('site', self.get_site())
+        #config['interval'] = config.get('interval', self.get_interval())
+        #config['network']  = config.get('network', self.get_network())
+        #config['meters']   = config.get('meters', self.get_meters())
+        #config['site']     = config.get('site', self.get_site())
 
         # add auto-detected chargers or loadpoints, if not user-defined
         if config.get('chargers', []) or config.get('loadpoints', []):
