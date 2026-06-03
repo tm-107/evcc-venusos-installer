@@ -1,6 +1,6 @@
 # EVCC VenusOS Installer
 
-**DISCLAIMER: This is a proof of concept and bound to change**
+**DISCLAIMER: This is a developement project! Use on own risk!**
 
 This project creates a `venus-data.tar.gz` archive for easy installation of the [evcc](https://github.com/evcc-io/evcc) project on a Victron Energy GX device running Venus OS. Within the installation process, it automatically detects and configures all Victron Energy EV Charging Stations connected to the GX device for use with evcc.
 
