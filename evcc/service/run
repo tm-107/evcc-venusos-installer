@@ -14,7 +14,8 @@ until netstat -an | grep 0.0.0.0:1883.*LISTEN > /dev/null; do
 done
 
 # create config file
-/data/evcc/evcc-autoconfig.py
+# commented, because everything is done via web-ui
+#/data/evcc/evcc-autoconfig.py
 
 exec 2>&1
-exec /data/evcc/evcc -c /data/evcc/evcc.ve.yaml
+exec /data/evcc/evcc -c /data/evcc/evcc.ve.yaml # -l --log-headers
