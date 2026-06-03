@@ -1,4 +1,4 @@
-# EVCC VenusOS Installer
+# EVCC-Installer for Venus-OS
 
 **DISCLAIMER: This is a developement project! Use on own risk!**
 
