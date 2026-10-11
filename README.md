@@ -1,5 +1,4 @@
-# Don't update VenusOS on cerbo-devices to anything after v3.79 !!!
-Victron has switched to Python 3 and cleaned up old core libraries (velib_python). Older scripts that were still based on Python 2 or used deprecated D-Bus imports (such as busitem.py or dbusitem.py) now crash immediately.
+# Do not update VenusOS on Cerbo devices to a version later than v3.79!!! The script will stop working...
 
 # EVCC-Installer for Venus-OS < v3.80
 
