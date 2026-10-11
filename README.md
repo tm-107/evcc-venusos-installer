@@ -12,6 +12,8 @@ This project creates a `venus-data.tar.gz` archive for easy installation of the 
 
 The use of USB adapters (e.g. for Modbus) is currently very flawed, as Venus OS apparently performs regular scans and thus can apparently lead to conflicts on the bus.
 
+Configuration must be done via `evcc.yaml`. While using the web UI is also possible, it requires manual adjustments to certain files. I might integrate this in the future.
+
 **The latest tested combination is VenusOS v3.79 and evcc v0.317.1**
 (as of October 11, 2026)
 
