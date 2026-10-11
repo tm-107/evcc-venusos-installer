@@ -1,4 +1,6 @@
-# Do not update VenusOS on Cerbo devices to a version later than v3.79!!! The script will stop working...
+# Do not update VenusOS on Cerbo devices to a version later than v3.79!!! EVCC will stop working...
+
+I don't have the skills or the free time to figure out what the problem is.
 
 # EVCC-Installer for Venus-OS < v3.80
 
